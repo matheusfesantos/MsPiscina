@@ -8,7 +8,7 @@ O projeto **MS_Piscinas** é uma página informativa dedicada à empresa de manu
 
 - **História da Empresa**: Uma seção que conta a trajetória da MS_Piscinas, destacando suas conquistas e compromissos.
 - **Serviços Oferecidos**: Informações detalhadas sobre os serviços disponíveis, como manutenção, tratamento de água e reparos.
-- **Nossos Parceiros**: Uma lista de parceiros e fornecedores confiáveis que colaboram com a empresa.
+- **Parceiros**: Uma lista de parceiros e fornecedores confiáveis que colaboram com a empresa.
 - **Formas de Contato**: Várias maneiras para que os clientes possam entrar em contato e solicitar serviços ou informações.
 
 ## Tecnologias Utilizadas 💻
