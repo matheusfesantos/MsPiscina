@@ -1,181 +1,12 @@
-/* Estilos gerais */
-
-body {
-    background-color: lightblue;
-    margin: 0;
-}
-
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: lightblue;
-    animation: gradientAnimation 10s ease infinite;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: silver;
-    border-radius: 10px;
-}
-
-.Titulo-Principal {
-    background-image: url('/Imagens/Rodape/Mar_Rodape.gif');
-    background-color: rgba(69, 157, 186, 0.548);
-    padding: 15px;
-    border-radius: 20px;
-    border: 4px solid white;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px  1px 0 #000,
-       1px  1px 0 #000;
-    text-align: center;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.sobre-nos {
-    background-color: rgba(0, 0, 0, 0.45);
-    border-radius: 20px;
-    border: 6px solid white;
-    padding: 2px;
-    color: white;
-    box-shadow: #000;
-    margin-bottom: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.sobre-nos h1 {
-    text-align: center;
-    text-shadow: 
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px  1px 0 #000,
-       1px  1px 0 #000;
-    font-size: 50px;
-}
-
-.sobre {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.sobre-nos p {
-    margin: 20px;
-    font-size: 34px;
-    flex: 1; 
-}
-
-.sobre img {
-    margin: 20px;
-    width: 550px;
-    height: auto;
-    box-shadow: #000;
-    border-radius: 20px;
-}
-
-.insta img {
-    width: 100px;
-    height: auto;
-    margin-left: 20px;
-    box-shadow: #000;
-    border-radius: 20px;
-    margin-bottom: 20px;
-}
-
-.insta img:hover {
-    background-color: lightblue;
-}
-
-.social {
-    color: white;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    text-shadow: none;
-}
-
-.loggin_whatsapp {
-    padding: 30px;
-    background: rgb(5, 177, 11);
-    border-radius: 20px;
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
-    text-shadow: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.social a:hover {
-    transform: scale(1.1);
-    border-width: 3px;
-    border-color: rgb(0, 0, 0);
-    background-color: white;
-}
-
-.parceiros {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.45);
-    border-radius: 20px;
-    border: 5px solid white;
-    padding: 2px;
-    color: white;
-    box-shadow: #000;
-    margin-bottom: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.parceiros h1 {
-    font-size: 40px;
-}
-
-.parceiros img, .parceiros a {
-    height: 300px;
-    width: auto;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.parceiros a:hover {
-    background-color: rgb(196, 251, 255);
-}
-
-.rodape {
-    border: 5px solid white;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    color: white;
-    padding: 6px;
-    font-size: 18px;
-}
-
-.rodape p {
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.rodape a {
-    font-weight: bold;
-    font-size: 26px;
-    color: lightblue;
-}
-
-
-/* Responsividade */
 @media only screen and (max-width: 1024px) {
     .Titulo-Principal, .sobre-nos, .parceiros {
         margin-left: 50px;
         margin-right: 50px;
     }
+
+    .sobre {
+        flex-direction: column;
+      }
 
     .sobre-nos h1, .parceiros h1 {
         font-size: 35px;
@@ -220,6 +51,10 @@ body {
         margin-right: 10px;
         font-size: 16px;
     }
+
+    .sobre {
+        flex-direction: column;
+      }
 
     .sobre-nos, .parceiros {
         margin-left: 10px;
