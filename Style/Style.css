@@ -19,7 +19,7 @@ body {
 }
 
 .Titulo-Principal {
-    background-image: url('/Imagens/Rodape/Mar_Rodape.gif');
+    background-image: url('Imagens/Rodape/Mar_Rodape.gif');
     background-color: rgba(69, 157, 186, 0.548);
     padding: 15px;
     border-radius: 20px;
